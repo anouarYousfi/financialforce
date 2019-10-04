@@ -1,0 +1,34 @@
+.formule{
+  background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+  margin-top: 3%;
+  padding: 3%;
+  padding-left: 3%;
+}
+
+.mainDiv{
+  background: #f8f9fa;
+}
+
+
+.formule .BC-form{
+  padding: 10%;
+  margin-top: 10%;
+}
+.submit{
+  float: right;
+  margin-top: 10%;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 2%;
+  background: #0062cc;
+  color: #fff;
+  font-weight: 600;
+  width: 50%;
+  cursor: pointer;
+}
+.heading{
+  text-align: center;
+  margin-top: 8%;
+  margin-bottom: -15%;
+  color: #495057;
+}

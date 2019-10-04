@@ -1,0 +1,25 @@
+<header class="jumbotron my-4">
+  <h1 class="display-3">  <strong> Nos fournisseurs</strong> </h1>
+  <table class="table table-dark">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">full name</th>
+        <th scope="col">Role</th>
+       
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let h of users">
+        <th scope="row">{{ h.id }}</th>
+        <td>{{ h.fullName }}</td>
+        <td>{{ h.role }}</td>
+      </tr>
+     
+    </tbody>
+  </table>
+  
+
+
+
+</header>

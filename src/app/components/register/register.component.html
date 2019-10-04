@@ -1,0 +1,60 @@
+<div class="app-body">
+  <main class="main d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto">
+          <div class="card mx-4">
+            <div class="card-body p-4">
+              <form (ngSubmit)="f.form.valid && register()" #f="ngForm" novalidate>
+                <h1>Register</h1>
+                <p class="text-muted">Ajouter un nouveau employée</p>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="icon-user"></i></span>
+                  </div>
+                  <input type="text" name="username" class="form-control" placeholder="Username" autocomplete="username" [(ngModel)]="user.username" #username="ngModel" required>
+                </div>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">@</span>
+                  </div>
+                  <input type="text" name="fullName" class="form-control" placeholder="FullName" autocomplete="Fullname" [(ngModel)]="user.fullName" #fullName="ngModel" required>
+                </div>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">@</span>
+                  </div>
+                  <input type="text" name="role" class="form-control" placeholder=" Role " autocomplete=" role" [(ngModel)]="user.role" #role="ngModel" required>
+                </div>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="icon-lock"></i></span>
+                  </div>
+                  <input type="password" name="password" class="form-control" placeholder="Password" autocomplete="new-password"  [(ngModel)]="user.password" #password="ngModel" required>
+                </div>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="icon-lock"></i></span>
+                  </div>
+                  <input type="password" name="password" class="form-control" placeholder=" Repeat password" autocomplete="new-password" >
+                </div>
+              
+                <button  type="submit" class="btn btn-block btn-success">Create Account</button>
+              </form>
+            </div>
+            <div class="card-footer p-4">
+              <div class="row">
+                <div class="col-6">
+                  <button class="btn btn-block btn-facebook" type="button"><span>facebook</span></button>
+                </div>
+                <div class="col-6">
+                  <button class="btn btn-block btn-twitter" type="button"><span>twitter</span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>

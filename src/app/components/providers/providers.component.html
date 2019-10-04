@@ -1,0 +1,25 @@
+<header class="jumbotron my-4">
+  <h1 class="display-3">  <strong> Nos fournisseurs</strong> </h1>
+  <table class="table table-dark">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">full name</th>
+        <th scope="col">city</th>
+       
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let h of providers">
+        <th scope="row">{{ h.pid }}</th>
+        <td>{{ h.pname }}</td>
+        <td>{{ h.pcity }}</td>
+      </tr>
+     
+    </tbody>
+  </table>
+  
+
+
+
+</header>
