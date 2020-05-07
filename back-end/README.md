@@ -15,12 +15,12 @@ This project is based on the [Spring Boot](http://projects.spring.io/spring-boot
 The project is created with Maven, so you just need to import it to your IDE(Eclipse,..) and build the project to resolve the dependencies
 
 ## Database configuration 
-Create a MySQL database with the name `soufiane` and add the credentials to `/resources/application.properties`.  
+Create a MySQL database and add the credentials to `/resources/application.properties`.  
 The default ones are :
 
 ```
 spring.datasource.driverClassName = com.mysql.jdbc.Driver
-spring.datasource.url = jdbc:mysql://localhost/soufiane
+spring.datasource.url = jdbc:mysql://localhost/databaseName
 spring.datasource.username = root
 spring.datasource.password = 
 ```
