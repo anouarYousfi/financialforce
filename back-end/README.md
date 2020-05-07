@@ -1,5 +1,5 @@
 # springBoot financial force 
- - this is the back end layer of the app using spring boot 
+ - this is an accounting process manager app built upon spring boot and angular
  
 
  
